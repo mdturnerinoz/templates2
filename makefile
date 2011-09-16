@@ -15,7 +15,7 @@ intro4 : intro4.cpp
 	$(CC) $(CFLAGS) $< -o $@
 intro5 : intro5.cpp
 	$(CC) $(CFLAGS) $< -o $@	
-run   :
+run   : all
 	./intro1
 	./intro2
 	./intro3
